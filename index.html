@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Erick Leal - Portfólio</title>
+</head>
+<body>
+<section id="principal">
+    <header id="header">
+        <div id="menu">
+            <a href="#home" class="home">ERICK LEAL</a>
+            <div class="linha_menu"></div>
+            <a href="#home">Home</a>
+            <a href="#sobre_mim_box">Sobre Mim</a>
+            <a href="#xp">Experiência</a>
+            <a href="#project">Projetos</a>
+            <div class="linha_menu"></div>
+        <div id="contact">
+            <a href="https://api.whatsapp.com/send?phone=5511980567119" target="blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/erickleal0/" target="blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/ericklealribeiro" target="blank"><i class="bi bi-github"></i></a>
+        </div>
+        </div>
+
+        <div id="btn_abrir" onclick="abrirMenu()">
+            <i class="bi bi-list"></i>
+        </div>
+        <div id="btn_fechar" onclick="fecharMenu()">
+            <i class="bi bi-x-lg"></i>
+        </div>
+
+        <div id="btnTop" onclick="btnTopo()">
+            <i class="bi bi-arrow-up-short"></i>
+        </div>
+    </header>
+
+    <div id="main">
+    <ul id="slides_container">
+        <li>
+            <div id="img1" class="img" style="background-image: url(coding2.1.jpeg);"></div>
+            <div id="img2" class="img" style="background-image: url(coding1.1.jpg);"></div>
+            <div id="img3" class="img" style="background-image: url(coding4.1.jpg);"></div>
+            <div id="img4" class="img" style="background-image: url(coding3.1.jpg);"></div>
+            <div id="overlay"></div>
+        </li>
+    </ul>
+
+    <div id="txt_slides">
+        <div id="nome">
+            <p>Olá! eu me chamo...</p>
+            <h2>
+                <a href="https://api.whatsapp.com/send?phone=5511980567119" target="blank"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/erickleal0/" target="blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/ericklealribeiro" target="blank"><i class="bi bi-github"></i></a>
+            </h2>
+            <h1>ERICK LEAL</h1>
+        </div>   
+        <div id="dev">
+            <p>...eu sou...</p>
+            <h1>DESENVOLVEDOR FRONT-END</h1>
+        </div>
+        <div id="welcome">
+            <p>...e seja bem-vindo ao...</p>
+            <h1>MEU PORTIFÓLIO</h1>
+        </div>
+    </div>
+
+    <div id="cabeça">
+        <h1>Erick Leal</h1>
+        <div id="home">
+            <a href="#sobre_mim_box">sobre mim</a>
+            <a href="#xp">experiência</a>
+            <a href="#project">projetos</a>
+        </div>
+    </div>
+
+    <div id="purpose_box">
+        <div id="purpose">
+            <h1>SEI QUE SE VOCÊ SOUBER UM POUCO <a href="#sobre_mim_box">SOBRE MIM</a> E COM A MINHA <a href="#xp">EXPERIÊNCIA</a> PODEMOS FAZER GRANDES <a href="#project">PROJETOS</a> JUNTOS</h1>
+        </div>
+    </div>
+    
+    <section id="sobre_mim_box">
+        <div id="titulo_sobre_mim">
+            <div id="txt_sobre_mim">
+                <h2>SOBRE MIM</h2>
+                <h1>QUEM É ERICK?</h1>
+                <div id="linha_sobre_mim"></div>
+            </div>
+        </div>
+        <div id="box_shadow_sobreMim"></div>
+            <div id="sobre_mim">
+                <p>- Eu sou o Erick! tenho 19 anos e além de ter fluência em Inglês e cursar Ciência da Computação desde 2022, minha fascinação por tecnologia me fez estudar a fundo o desenvolvimento Front-End de forma extra curricular e me incentivou a   ingressar profissionalmente na área!</p>
+            </div>
+        <div id="box_shadow_buffer"></div>
+        <img id="buffer" src="buffer.png">
+    </section>
+
+    <section id="xp">
+        <div id="titulo_xp">
+            <div id="txt_xp">
+                <h2>EXPERIÊNCIA</h2>
+                <h1>LINHA DO TEMPO</h1>
+                <div id="linha_sobre_mim"></div>
+            </div>
+        </div>
+
+    <div id="slides_xp">
+
+        <div class="box_xp" id="xp1">
+            <h1>AGOSTO</h1>
+            <h2>2022</h2>
+            <p>Inicio da faculdade de Ciência da Computação</p>
+        </div>
+
+        <div class="box_xp" id="xp2">
+            <h1>JANEIRO</h1>
+            <h2>2023</h2>
+            <p>Inicio de manutenção de HARDWARE de forma autonoma</p>
+        </div>
+
+        <div class="box_xp" id="xp3">
+            <h1>MAIO</h1>
+            <h2>2023</h2>
+            <p>Inicio do curso de HTML, CSS e JavaScript</p>
+        </div>
+
+        <div class="box_xp" id="xp4">
+            <h1>SETEMBRO</h1>
+            <h2>2023</h2>
+            <p>Conclusão do meu Portfólio</p>
+        </div>
+
+        <div class="box_xp" id="xp5">
+            <h1>CONTINUA...</h1>
+        </div>
+    </div>
+    <div id="btns_xp">
+        <div id="left_btn_xp" onclick="btnLeft()">
+            <i class="bi bi-caret-left" ></i>
+        </div>
+        <div id="right_btn_xp" onclick="btnRight()">
+            <i class="bi bi-caret-right" ></i>
+        </div>
+        
+    </div>
+    </section>
+
+    <section id="project">
+    <div id="titulo_project">
+            <div id="txt_project">
+                <h2>PROJETOS</h2>
+                <h1>MEUS PROJETOS</h1>
+                <div id="linha_sobre_mim"></div>
+            </div>
+        </div>
+    <div id="projectCards1">
+        <div id="projectBox1">
+            <div id="project1">
+                <i class="bi bi-body-text" id="textIcon1"></i>
+                <i class="bi bi-body-text" id="textIcon2"></i>
+                <div id="tarja">
+                    <h1>- - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1> - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1>EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE - </h1>
+                </div>
+            </div>
+            <div id="cel1">
+                <i class="bi bi-phone"></i>
+                <div id="tarjaCel1">
+                    <h1>- - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1> - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1>EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE - </h1>
+                </div>
+            </div>
+            <div id="linha_projects1"></div>
+            <div id="textProjects1">
+                <h1>EM DESENVOLVIMENTO</h1>
+            </div>
+        </div>
+        <div id="projectBox2">
+            <div id="project2">
+                <i class="bi bi-body-text" id="textIcon1"></i>
+                <i class="bi bi-body-text" id="textIcon2"></i>
+                <div id="tarja2">
+                    <h1>- - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1> - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1>EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE - </h1>
+                </div>
+            </div>
+            <div id="linha_projects2"></div>
+            <div id="cel2">
+                <i class="bi bi-phone"></i>
+                <div id="tarjaCel2">
+                    <h1>- - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1> - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1>EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE - </h1>
+                </div>
+            </div>
+            <div id="textProjects2">
+                <h1>EM DESENVOLVIMENTO</h1>
+            </div>
+        </div>
+    </div>
+    <div id="projectCards2">
+        <div id="projectBox3">
+            <div id="project3">
+                <i class="bi bi-body-text" id="textIcon1"></i>
+                <i class="bi bi-body-text" id="textIcon2"></i>
+                <div id="tarja3">
+                    <h1>- - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1> - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1>EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE - </h1>
+                </div>
+            </div>
+            <div id="linha_projects3"></div>
+            <div id="cel3">
+                <i class="bi bi-phone"></i>
+                <div id="tarjaCel3">
+                    <h1>- - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1> - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1>EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE - </h1>
+                </div>
+            </div>
+            <div id="textProjects3">
+                <h1>EM DESENVOLVIMENTO</h1>
+            </div>
+        </div>
+        <div id="projectBox4">
+            <div id="project4">
+                <i class="bi bi-body-text" id="textIcon1"></i>
+                <i class="bi bi-body-text" id="textIcon2"></i>
+                <div id="tarja4">
+                    <h1>- - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1> - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1>EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE - </h1>
+                </div>
+            </div>
+            <div id="linha_projects4"></div>
+            <div id="cel4">
+                <i class="bi bi-phone"></i>
+                <div id="tarjaCel4">
+                    <h1>- - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1> - EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE</h1>
+                    <h1>EM BREVE - EM BREVE - EM BREVE - EM BREVE - EM BREVE - </h1>
+                </div>
+            </div>
+            <div id="textProjects4">
+                <h1>EM DESENVOLVIMENTO</h1>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    <section id="final">
+        <footer id="footer">
+            <div id="footerBox">
+                <h1>ENTRE EM CONTATO VIA:</h1>
+                <div id="contactBox">
+                    <div id="contactW">
+                    <a href="https://api.whatsapp.com/send?phone=5511980567119" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                    <p>WhatsApp</p>
+                    </div>
+                    <div id="contactL">
+                    <a href="https://www.linkedin.com/in/erickleal0/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <p>LinkedIn</p>
+                    </div>
+                    <div id="contactG">
+                    <a href="https://github.com/ericklealribeiro" target="_blank"><i class="bi bi-github"></i></a>
+                    <p>GitHub</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </section>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
