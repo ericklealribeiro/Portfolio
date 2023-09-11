@@ -1,3 +1,5 @@
+//Formulário no Footer para envio de mensagem;
+
 const form = document.getElementById("form");
 
 form.addEventListener("submit", (event) =>{

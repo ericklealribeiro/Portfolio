@@ -1,3 +1,5 @@
+//Animação de Hover nas Mídias Sociais para teste;
+
 const contactW = document.getElementById("contactW");
 const contactL = document.getElementById("contactL");
 const contactG = document.getElementById("contactG");

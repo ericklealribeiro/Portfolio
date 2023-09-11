@@ -1,79 +1,7 @@
-function abrirMenu(){
-    document.getElementById('header').style.width='300px'
-    document.getElementById('btn_fechar').style.display='block'
-    document.getElementById('btn_abrir').style.display='none'
-    document.getElementById('home').style.right='360px'
-    document.getElementById('btnTop').style.right='175px'
-}
-
-function fecharMenu(){
-    document.getElementById('header').style.width='60px'
-    document.getElementById('btn_fechar').style.display='none'
-    document.getElementById('btn_abrir').style.display='block'
-    document.getElementById('home').style.right='150px'
-    document.getElementById('btnTop').style.right='14px'
-}
-
-let count = 1;
-setInterval(function(){
-    nextImg();
-}, 4500)
-
-function nextImg(){
-    count++;
-    if (count > 4){
-        count = 1;
-        document.getElementById('img1').style.opacity='1'
-        document.getElementById('img2').style.opacity='0'
-        document.getElementById('img3').style.opacity='0'
-        document.getElementById('img4').style.opacity='0'
-    }
-    document.getElementById('img'+count).style.opacity='1'
-}
-
-let count2 = 0;
-setInterval(function(){
-    nextTxt();
-}, 6750)
-
-function nextTxt(){
-    count2++;
-    document.getElementById('dev').style.opacity='0'
-    document.getElementById('dev').style.top='-45px'
-    document.getElementById('welcome').style.opacity='1'
-    document.getElementById('welcome').style.top='-205px'
-    if(count2 > 1){
-        count2 = 0;
-        document.getElementById('dev').style.opacity='1'
-        document.getElementById('dev').style.top='20px'
-        document.getElementById('welcome').style.opacity='0'
-        document.getElementById('welcome').style.top='0px'
-    }
-}
-
-
-function btnTopo(){
-    window.scrollTo(0,0)
-}
-
-document.addEventListener('scroll', ocultar)
-
-function ocultar(){
-    if (window.scrollY > 70){
-        document.getElementById('btnTop').style.opacity='1'
-        document.getElementById('btnTop').style.cursor='pointer'
-    } else {
-        document.getElementById('btnTop').style.opacity='0'
-        document.getElementById('btnTop').style.cursor=''
-    }
-}
-
 let count3 = 0;
-
 setInterval(function(){
     btnRight();
 }, 4500);
-
 function btnRight(){
     let nextDivId = 'xp'+ (count3 + 1);
     console.log(nextDivId);
