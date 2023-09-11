@@ -1,0 +1,98 @@
+/* sobre mim */
+#linha_sobre_mim{
+    border-top: solid 1px rgba(161, 161, 161, 0.8);
+    margin: 20px auto;
+    width: 152px;
+    height: 1px;
+}
+#sobre_mim_box{
+    background-color: #3d3d3d;
+    box-shadow: 1px 1px 1px  rgba(19, 19, 19, 0.3);
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 590px;
+    top: 1%;
+}
+#titulo_sobre_mim{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    top: 27px;
+}
+#txt_sobre_mim{
+    margin: 0 auto;
+}
+#titulo_sobre_mim > #txt_sobre_mim > h2{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin: 20px 0 10px 0;
+    font-size: 17px;
+    color: #1c1c1c;
+    opacity: .8;
+}
+#titulo_sobre_mim > #txt_sobre_mim > h1{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 27px;
+    color: #c2c2c2;
+    text-shadow: -2px -2px 0px rgb(131, 52, 36);
+}
+
+#box_shadow_sobreMim{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    top: 200px;
+    left: 250px;
+    width: 32%;
+    height: 335px;
+}
+#box_shadow_buffer{
+    position: absolute;
+    background-color:rgb(131, 52, 36);
+    box-shadow: 21px 21px 0px rgb(0, 0, 0);
+    border-radius: 10px;
+    top: 191px;
+    right: 312px;
+    width: 29%;
+    height: 335px;
+}
+#sobre_mim{
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    width: 30%;
+    height: 300px;
+    left: 14%;
+    top: 12%;
+    background-color: #585858;
+    box-shadow: -24px -24px 0px  rgb(131, 52, 36);
+    border-radius: 10px;
+}
+#sobre_mim > p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    display: flex;
+    position: absolute;
+    justify-content:left;
+    font-size: 26px;
+    margin: 0 10px 0 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px -1px 1px rgba(19, 19, 19, 0.3);
+}
+#buffer{
+    position: absolute;
+    right: 15%;
+    top: 13%;
+    height: 570px;
+    width: 570px;
+}
+/* sobre mim */

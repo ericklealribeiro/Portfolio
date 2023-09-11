@@ -1,0 +1,147 @@
+/* botão subir */
+#btnTop{
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 13px;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0,0,0,.3);;
+    border-radius: 50%;
+    transition: .5s;
+}
+.bi.bi-arrow-up-short{
+    color: white;
+    font-size: 42px;
+    text-shadow: 0px 0px 1px  rgba(19, 19, 19, 0.3);
+    transition: 0.3s;
+}
+.bi.bi-arrow-up-short:hover{
+    color: #833424;
+}
+/* botão subir */
+
+/* menu lateral */
+#header{
+    z-index: 10;
+    position: fixed;
+    right: 0;
+    margin: 0;
+    width: 60px;
+    height: 100%;
+    transition: .4s;
+}
+#menu{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: 240px;
+    height: 100%;
+    text-align: left;
+    background-color: #202020;
+}
+#menu > .home{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#menu > .home:hover{
+    font-size: 27px;
+    color: #833424;
+}
+.linha_menu{
+    border-top: solid 1px rgba(255, 255, 255,.5);
+    margin: 20px auto;
+    width: 210px;
+    height: 1px;
+}
+#menu > a{
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px 0 10px 0;
+    color: rgba(255, 255, 255, 1);
+    transition: .2s;
+}
+#menu > a:hover{
+    font-size: 23px;
+    color: #833424;
+}
+#contact{
+    display: flex;
+    margin: 0 0 0 16px;
+}
+#contact > a{
+    display: flex;
+    text-decoration: none;
+}
+#contact > a > i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    color: rgba(255, 255, 255, 1);
+    transition: .2s;
+}
+#contact > a > i:hover{
+    font-size: 25px;
+    color: #833424;
+}
+#btn_abrir{
+    position: absolute;
+    top: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+#btn_abrir > i{
+    display: flex;
+    position: relative;
+    padding: 3px;
+    right: 0;
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,.3);
+    text-shadow: 0px 0px 1px  rgba(19, 19, 19, 0.3);
+    color: rgba(255, 255, 255, 1);
+    transition: .3s;
+}
+#btn_abrir > i:hover{
+    color: #833424;
+}
+#btn_fechar{
+    display: none;
+    position: absolute;
+    top: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+#btn_fechar > i{
+    display: flex;
+    position: relative;
+    padding: 3px;
+    right: 0;
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,.3);
+    color: rgba(255, 255, 255, 1);
+    transition: .3s;
+}
+#btn_fechar > i:hover{
+    color: #833424;
+}
+/* menu lateral */
