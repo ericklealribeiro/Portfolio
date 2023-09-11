@@ -85,7 +85,7 @@
     justify-content:left;
     font-size: 26px;
     margin: 0 10px 0 15px;
-    color: rgb(255, 255, 255);
+    color: #e3e3e3;
     text-shadow: -2px -1px 1px rgba(19, 19, 19, 0.3);
 }
 #buffer{

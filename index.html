@@ -265,35 +265,51 @@
     <section id="final">
         <footer id="footer">
             <div id="footerBox">
-                <h1>ENTRE EM CONTATO VIA:</h1>
+                <h1>MÍDIAS SOCIAIS</h1>
                 <div id="contactBox">
                     <div id="contactW">
-                    <a href="https://api.whatsapp.com/send?phone=5511980567119" target="_blank"><i class="bi bi-whatsapp"></i></a>
-                    <p>WhatsApp</p>
+                        <div id="zapIcon">
+                            <a href="https://api.whatsapp.com/send?phone=5511980567119" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                            <p>WhatsApp</p>
+                        </div>
+                    <div id="hiddenTextW">
+                        <a href="https://api.whatsapp.com/send?phone=5511980567119" target="_blank"><h1 id="hiddenW">Para um contato mais pessoal, aqui esta meu WhatsApp!</h1></a>
+                    </div>
                     </div>
                     <div id="contactL">
-                    <a href="https://www.linkedin.com/in/erickleal0/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    <p>LinkedIn</p>
+                        <div id="linkedIcon">
+                            <a href="https://www.linkedin.com/in/erickleal0/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <p>LinkedIn</p>
+                        </div>
+                    <div id="hiddenTextL">
+                        <a href="https://www.linkedin.com/in/erickleal0/" target="_blank"><h1 id="hiddenL">Se conecte comigo pelo LinkedIn e me mande uma mensagem!</h1></a>
                     </div>
-                    <div id="contactG">
-                    <a href="https://github.com/ericklealribeiro" target="_blank"><i class="bi bi-github"></i></a>
-                    <p>GitHub</p>
+                    </div>
+                        <div id="contactG">
+                            <div id="gitIcon">
+                                <a href="https://github.com/ericklealribeiro" target="_blank"><i class="bi bi-github"></i></a>
+                                <p>GitHub</p>
+                            </div>
+                        <div id="hiddenTextG">
+                            <a href="https://github.com/ericklealribeiro"><h1 id="hiddenG">Veja os repositórios de todos meus projetos no meu GitHub!</h1></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="form">
-                <form id="formBox">
-                    <h3>email</h3>
-                    <input type="text" placeholder="Nome " id="nome" required>
-                    <input type="email" placeholder="E-mail" class="box" id="email" required>
-                    <input type="text" placeholder="Título" class="box" id="titulo" required>
-                    <textarea id="texto" placeholder="Mensagem" cols="2" rows="2" required></textarea>
-                    <input type="submit" value="Enviar" class="btnEnviar" id="enviarBtn">
-                </form>
-            </div>
+            <form id="form">
+                <h1>ENTRE EM CONTATO</h1>
+                <div id="formBox">
+                    <input type="test" placeholder="E-mail" class="box" id="emailBox" required>
+                    <input type="text" placeholder="Assunto" class="box" id="assuntoBox" required>
+                    <textarea id="messageBox" placeholder="Mensagem" required></textarea>
+                </div>
+                <input type="submit" value="Enviar" id="enviarBtn">
+            </form>
         </footer>
     </section>
 </section>
+<script src="midiahover.js"></script>
+<script src="form.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

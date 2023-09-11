@@ -1,19 +1,18 @@
-/* footer */
 #final{
     width: 100%;
+    background-color: #2c2c2c;
+    height: 490px;
 }
 
 #footer{
     display: flex;
-    width: 100%;
-    height: 257px;
 }
 #footerBox{
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    left: 340px;
+    left: 250px;
     margin: 50px 0 0 0;
 }
 #footerBox > h1{
@@ -23,12 +22,11 @@
     margin: 0;
 }
 
+/* footer left */
 #contactBox{
     display: flex;
-    margin: 25px 0 0 0;
-}
-#contactBox > p{
-    font-size: 30px;
+    flex-direction: column;
+    margin: 30px 0 0 0;
 }
 
 #contactW{
@@ -37,8 +35,17 @@
     flex-direction: column;
     align-items: center;
     padding: 0 15px 0 15px;
+    margin: 5px 0 0 0;
 }
-#contactW > a{
+#zapIcon{
+    text-align: center;
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    transition: .4s;
+}
+#zapIcon > a{
     font-size: 35px;
     width: 73px;
     height: 40px;
@@ -46,14 +53,36 @@
     text-align: center;
     transition: .2s;
 }
-#contactW > a:hover{
+#zapIcon > a:hover{
     font-size: 40px;
     color: #c2c2c2;
     text-shadow: -3px -3px 0px rgb(131, 52, 36);
 }
-#contactW > p{
+#zapIcon > p{
     margin: 7px 0 0 0;
 }
+#hiddenTextW{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 522px;
+    height: 50px;
+    top: -50px;
+    left: 260px;
+    transition: .5s;
+}
+#hiddenTextW > a{
+    text-decoration: none;
+}
+#hiddenW{
+    color: #c2c2c2;
+    position: relative;
+    left: -522px;
+    margin: 0 0 0 0;
+    transition: .4s;
+}
+
 
 #contactL{
     color: #c2c2c2;
@@ -61,8 +90,17 @@
     flex-direction: column;
     align-items: center;
     padding: 0 15px 0 15px;
+    margin: 0 0 0 0;
 }
-#contactL > a{
+#linkedIcon{
+    text-align: center;
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    transition: .4s;
+}
+#linkedIcon > a{
     font-size: 30px;
     width: 73px;
     height: 40px;
@@ -70,14 +108,36 @@
     text-align: center;
     transition: .2s;
 }
-#contactL > a:hover{
+#linkedIcon > a:hover{
     font-size: 40px;
     color: #c2c2c2;
     text-shadow: -3px -3px 0px rgb(131, 52, 36);
 }
-#contactL > p{
+#linkedIcon > p{
     margin: 7px 0 0 0;
 }
+#hiddenTextL{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 575px;
+    height: 50px;
+    top: -50px;
+    left: 260px;
+    transition: .5s;
+}
+#hiddenTextL > a{
+    text-decoration: none;
+}
+#hiddenL{
+    color: #c2c2c2;
+    position: relative;
+    left: -575px;
+    margin: 0 0 0 0;
+    transition: .4s;
+}
+
 
 #contactG{
     color: #c2c2c2;
@@ -85,8 +145,17 @@
     flex-direction: column;
     align-items: center;
     padding: 0 15px 0 15px;
+    margin: 0 0 0 0;
 }
-#contactG > a{
+#gitIcon{
+    text-align: center;
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    transition: .4s;
+}
+#gitIcon > a{
     font-size: 30px;
     width: 73px;
     height: 40px;
@@ -94,12 +163,115 @@
     text-align: center;
     transition: .2s;
 }
-#contactG > a:hover{
+#gitIcon> a:hover{
     font-size: 40px;
     color: #c2c2c2;
     text-shadow: -3px -3px 0px rgb(131, 52, 36);
 }
-#contactG > p{
+#gitIcon > p{
     margin: 7px 0 0 0;
 }
-/* footer */
+#hiddenTextG{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 550px;
+    height: 50px;
+    top: -50px;
+    left: 260px;
+    transition: .5s;
+}
+#hiddenTextG > a{
+    text-decoration: none;
+}
+#hiddenG{
+    color: #c2c2c2;
+    position: relative;
+    left: -550px;
+    margin: 0 0 0 0;
+    transition: .4s;
+}
+/* footer left */
+
+/* footer message */
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 430px;
+    margin: 50px 0 0 0;
+}
+#form > h1{
+    font-size: 35px;
+    color: #c2c2c2;
+    text-shadow: -2px -2px 0px rgb(131, 52, 36);
+    margin: 0;
+}
+#formBox{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5px;
+    margin: 15px 0 0 0;
+}
+#emailBox{
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+    color: #c2c2c2;
+    margin: 15px 0 0 0;
+    border: 1px solid #626262;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 290px;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#assuntoBox{
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+    color: #c2c2c2;
+    margin: 5px 0 0 0;
+    border: 1px solid #626262;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 290px;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#messageBox{
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+    color: #c2c2c2;
+    margin: 15px 0 5px 0;
+    border: 1px solid #626262;
+    background-color: transparent;
+    border-radius: 6px;
+    resize: none;
+    width: 340px;
+    height: 120px;
+    font-size: 17px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#enviarBtn{
+    font-size: 17px;
+    margin: 20px 0 0 0;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #626262;
+    cursor: pointer;
+    width: 90px;
+    height: 50px;
+    transition: .2s;
+}
+#enviarBtn:hover{
+    background-color: #833424;
+}
+/* footer message */
