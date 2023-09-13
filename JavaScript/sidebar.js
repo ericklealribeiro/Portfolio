@@ -5,6 +5,7 @@ function abrirMenu(){
     document.getElementById('btn_abrir').style.display='none'
     document.getElementById('home').style.right='360px'
     document.getElementById('btnTop').style.right='175px'
+    document.getElementById('overlayFechar').style.display='block'
 }
 function fecharMenu(){
     document.getElementById('header').style.width='60px'
@@ -12,6 +13,7 @@ function fecharMenu(){
     document.getElementById('btn_abrir').style.display='block'
     document.getElementById('home').style.right='150px'
     document.getElementById('btnTop').style.right='14px'
+    document.getElementById('overlayFechar').style.display='none'
 }
 
 

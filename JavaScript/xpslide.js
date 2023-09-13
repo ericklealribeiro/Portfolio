@@ -2,6 +2,7 @@ let count3 = 0;
 setInterval(function(){
     btnRight();
 }, 4500);
+
 function btnRight(){
     let nextDivId = 'xp'+ (count3 + 1);
     console.log(nextDivId);
@@ -54,7 +55,6 @@ function btnRight(){
         document.getElementById('xp1').style.right='28.3%'
         document.getElementById('xp1').style.opacity='1'
     }
-    console.log(count3);
 }
 
 function btnLeft(){
@@ -116,5 +116,4 @@ function btnLeft(){
         document.getElementById('xp4').style.right='28.3%'
         document.getElementById('xp4').style.opacity='1'
     }
-    console.log(count3);
 }

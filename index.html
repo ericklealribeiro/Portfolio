@@ -16,7 +16,6 @@
     <title>Erick Leal - Portfólio</title>
 </head>
 <body>
-<section id="principal">
     <header id="header">
         <div id="menu">
             <a href="#home" class="home">ERICK LEAL</a>
@@ -25,14 +24,15 @@
             <a href="#sobre_mim_box">Sobre Mim</a>
             <a href="#xp">Experiência</a>
             <a href="#project">Projetos</a>
+            <a href="#footer">Contato</a>
             <div class="linha_menu"></div>
-        <div id="contact">
-            <a href="https://api.whatsapp.com/send?phone=5511980567119" target="blank"><i class="bi bi-whatsapp"></i></a>
-            <a href="https://www.linkedin.com/in/erickleal0/" target="blank"><i class="bi bi-linkedin"></i></a>
-            <a href="https://github.com/ericklealribeiro" target="blank"><i class="bi bi-github"></i></a>
+            <div id="contact">
+                <a href="https://api.whatsapp.com/send?phone=5511980567119" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/erickleal0/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/ericklealribeiro" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
         </div>
-        </div>
-
+        
         <div id="btn_abrir" onclick="abrirMenu()">
             <i class="bi bi-list"></i>
         </div>
@@ -44,8 +44,7 @@
             <i class="bi bi-arrow-up-short"></i>
         </div>
     </header>
-
-    <div id="main">
+    <div id="overlayFechar" onclick="fecharMenu()"></div>
     <ul id="slides_container">
         <li>
             <div id="img1" class="img" style="background-image: url(Images/coding2.1.jpeg);"></div>
@@ -58,12 +57,14 @@
 
     <div id="txt_slides">
         <div id="nome">
+            <div id="topHomeText">
             <p>Olá! eu me chamo...</p>
             <h2>
-                <a href="https://api.whatsapp.com/send?phone=5511980567119" target="blank"><i class="bi bi-whatsapp"></i></a>
-                <a href="https://www.linkedin.com/in/erickleal0/" target="blank"><i class="bi bi-linkedin"></i></a>
-                <a href="https://github.com/ericklealribeiro" target="blank"><i class="bi bi-github"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5511980567119" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/erickleal0/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/ericklealribeiro" target="_blank"><i class="bi bi-github"></i></a>
             </h2>
+            </div>
             <h1>ERICK LEAL</h1>
         </div>   
         <div id="dev">
@@ -82,6 +83,7 @@
             <a href="#sobre_mim_box">sobre mim</a>
             <a href="#xp">experiência</a>
             <a href="#project">projetos</a>
+            <a href="#footer">contato</a>
         </div>
     </div>
 
@@ -292,7 +294,7 @@
                                 <p>GitHub</p>
                             </div>
                         <div id="hiddenTextG">
-                            <a href="https://github.com/ericklealribeiro"><h1 id="hiddenG">Veja os repositórios de todos meus projetos no meu GitHub!</h1></a>
+                            <a href="https://github.com/ericklealribeiro" target="_blank"><h1 id="hiddenG">Veja os repositórios de todos meus projetos no meu GitHub!</h1></a>
                         </div>
                     </div>
                 </div>
@@ -308,7 +310,6 @@
             </form>
         </footer>
     </section>
-</section>
 <script src="JavaScript/home.js"></script>
 <script src="JavaScript/sidebar.js"></script>
 <script src="JavaScript/midiahover.js"></script>

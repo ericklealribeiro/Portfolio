@@ -42,20 +42,20 @@
     color: #833424;
     text-shadow: 0px 1px 1px  rgba(19, 19, 19, 0.5);
 }
-/* cabeçalho */
-
-
-
-/* home */
-#main{
+#overlayFechar{
+    z-index: 7;
+    position: fixed;
+    display: block;
     width: 100%;
     height: 100%;
-    margin: 0;
 }
+/* cabeçalho */
+
+/* home */
 #slides_container{
     list-style: none;
     position: relative;
-    height: 970px;
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -67,6 +67,10 @@
     transform: translate(-50%, -50%);
     z-index:5;
     margin: 0;
+}
+#topHomeText{
+    display: flex;
+    justify-content: space-between;
 }
 #nome{
     text-align: center;
@@ -87,17 +91,16 @@
     margin: 0;
     padding: 0;
 }
-#nome > p{
+#topHomeText > p{
     position: relative;
     font-size: 35px;
     font-weight: 200;
-    left: -247px;
     color: white;
     text-shadow: 0px 1px 1px  rgba(19, 19, 19, 0.3);
     margin: 0 0 15px 0;
     padding: 0;
 }
-#nome > h2{
+#topHomeText > h2{
     display: flex;
     position: absolute;
     align-items: center;
@@ -108,11 +111,11 @@
     top: 0%;
     margin: 0;
 }
-#nome > h2 > a{
+#topHomeText > h2 > a{
     display: flex;
     text-decoration: none;
 }
-#nome > h2 > a > i{
+#topHomeText > h2 > a > i{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,7 +126,7 @@
     text-shadow: 0px 1px 1px  rgba(19, 19, 19, 0.3);
     transition: .2s;
 }
-#nome > h2 > a > i:hover{
+#topHomeText > h2 > a > i:hover{
     color: rgb(131, 52, 36);
     font-size: 35px;
     text-shadow: 0px 1px 1px  rgba(19, 19, 19, 0.5);
