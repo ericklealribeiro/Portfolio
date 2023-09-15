@@ -54,3 +54,15 @@
         font-size: 23px;
     }
 }
+
+@media (max-width: 500px){
+    #purpose_box{
+        height: 140px;
+    }
+    #purpose{
+        width: 345px;
+    }
+    #purpose > h1{
+        font-size: 15px;
+    }
+}

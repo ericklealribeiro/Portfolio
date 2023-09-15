@@ -270,7 +270,53 @@
         height: 40px;
     }
     #welcome > p{
-        margin: 55px 0 10px 0;
+        margin: 80px 0 10px 0;
         font-size: 15px;
     }   
+}
+
+@media (max-width: 500px){
+   #topHomeText{
+        display: block;
+        width: 307px;
+   }
+   #nome > h1{
+        flex-direction: column;
+        width: 307px;
+        height: 115px;
+        font-size: 80px;
+        letter-spacing: .4rem;
+        line-height: 115%;
+   }
+   #topHomeText > p{
+        top: -44px;
+        width: 161px;
+        font-size: 19px;
+        left: 50%;
+        transform: translateX(-50%);
+   }
+   #topHomeText > h2{
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+        bottom: -580px;
+   }
+   #dev > h1{
+        width: 307px;
+        font-size: 35px;
+        height: 70px;
+   }
+   #dev > p{
+        margin: 15px 0 0 0;
+        width: 307px;
+   }
+   #welcome > h1{
+        width: 307px;
+        font-size: 37px;
+        height: 40px;
+   }
+   #welcome > p{
+        width: 307px;
+        margin: 122px 0 0 0;
+   }
 }

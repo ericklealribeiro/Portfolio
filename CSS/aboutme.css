@@ -24,7 +24,7 @@
 #txt_sobre_mim{
     margin: 0 auto;
 }
-#titulo_sobre_mim > #txt_sobre_mim > h2{
+#txt_sobre_mim > h2{
     display: flex;
     justify-content: center;
     letter-spacing: 1px;
@@ -33,7 +33,7 @@
     color: #1c1c1c;
     opacity: .8;
 }
-#titulo_sobre_mim > #txt_sobre_mim > h1{
+#txt_sobre_mim > h1{
     display: flex;
     justify-content: center;
     letter-spacing: 1px;
@@ -155,5 +155,39 @@
     }
     #sobre_mim > p{
         font-size: 20px;
+    }
+}
+
+@media (max-width: 500px){
+    #sobre_mim_box{
+        height: 380px;
+    }
+    #box_shadow_sobreMim{
+        border-radius: 7px;
+        top: 40px;
+        width: 335px;
+        height: 170px;
+    }
+    #sobre_mim{
+        border-radius: 7px;
+        width: 310px;
+        height: 140px;
+        box-shadow: -17px -17px 0px  rgb(131, 52, 36);
+    }
+    #sobre_mim > p{
+        font-size: 14px;
+    }
+    #titulo_sobre_mim{
+        top: 0px;
+    }
+    #txt_sobre_mim > h2{
+        font-size: 13px;
+    }
+    #txt_sobre_mim > h1{
+        font-size: 20px;
+    }
+    #linha_sobre_mim{
+        margin: 12px auto;
+        width: 120px;
     }
 }

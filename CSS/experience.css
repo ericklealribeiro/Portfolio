@@ -217,3 +217,42 @@
         left: 200px;
     }
 }
+
+@media (max-width: 500px){
+    #xp{
+        height: 400px;
+    }
+    #txt_xp{
+        top: -23px;
+    }
+    #txt_xp > h2{
+        font-size: 13px;
+    }
+    #txt_xp > h1{
+        font-size: 20px;
+    }
+    #slides_xp {
+        top: 40px;
+        left: 5px;
+    }
+    .box_xp{
+        width: 270px;
+        height: 195px;
+    }
+    .box_xp > h1{
+        font-size: 17px;
+    }
+    .box_xp > h2{
+        font-size: 15px;
+    }
+    .box_xp > p{
+        font-size: 18px;
+        margin: 13px 0 0 0;
+    }
+    #xp5 > h1{
+        font-size: 24px;
+    }
+    #btns_xp{
+        display: none;
+    }
+}
