@@ -2,8 +2,8 @@
 #purpose_box{
     display: flex;
     justify-content: center;
+    height: 250px;
     width: 100%;
-    padding-top: 2%;
 }
 #purpose{
     display: flex;
@@ -29,3 +29,28 @@
     color: #833424;
 }
 /* proposta */
+
+
+@media (max-width: 1200px){
+    #purpose_box{
+        height: 210px;
+    }
+    #purpose{
+        width: 620px;
+    }
+    #purpose > h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 800px){
+    #purpose_box{
+        height: 170px;
+    }
+    #purpose{
+        width: 500px;
+    }
+    #purpose > h1{
+        font-size: 23px;
+    }
+}

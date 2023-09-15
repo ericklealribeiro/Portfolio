@@ -194,84 +194,69 @@
 }
 /* footer left */
 
-/* footer message */
-#form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    right: 430px;
-    margin: 50px 0 0 0;
+
+
+@media (max-width: 800px){
+    #footerBox > h1{
+        font-size: 30px;
+    }
+    #contactW{
+        padding: 0 10px;
+    }
+    #zapIcon > a{
+        font-size: 30px;
+    }
+    #zapIcon > p{
+        font-size: 13px;
+    }
+    #contactL{
+        padding: 0 10px;
+    }
+    #linkedIcon > a{
+        font-size: 30px;
+    }
+    #linkedIcon > p{
+        font-size: 13px;
+    }
+    #contactG{
+        padding: 0 10px;
+    }
+    #gitIcon > a{
+        font-size: 30px;
+    }
+    #gitIcon > p{
+        font-size: 13px;
+    }
 }
-#form > h1{
-    font-size: 35px;
-    color: #c2c2c2;
-    text-shadow: -2px -2px 0px rgb(131, 52, 36);
-    margin: 0;
+
+@media (max-width: 1200px){
+    #footer{
+        display: block;
+    }
+    #footerBox{
+        left: 0;
+    }
+    #contactBox{
+        flex-direction: row;
+        padding: 0;
+        align-items: center;
+    }
+    #contactW{
+        margin: 0;
+    }
+    #hiddenTextW{
+        display: none;
+    }
+    #hiddenTextL{
+        display: none;
+    }
+    #hiddenTextG{
+        display: none;
+    }
 }
-#formBox{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 6px;
-    margin: 15px 0 0 0;
+
+@media (max-width: 1600px){
+    #footerBox{
+        left: 0px;
+    }
 }
-#emailBox{
-    font-family: 'Nunito', sans-serif;
-    outline: none;
-    color: #c2c2c2;
-    margin: 15px 0 0 0;
-    border: 1px solid #626262;
-    background-color: transparent;
-    border-radius: 5px;
-    width: 290px;
-    height: 35px;
-    font-size: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-#assuntoBox{
-    font-family: 'Nunito', sans-serif;
-    outline: none;
-    color: #c2c2c2;
-    margin: 5px 0 0 0;
-    border: 1px solid #626262;
-    background-color: transparent;
-    border-radius: 5px;
-    width: 290px;
-    height: 35px;
-    font-size: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-#messageBox{
-    font-family: 'Nunito', sans-serif;
-    outline: none;
-    color: #c2c2c2;
-    margin: 15px 0 5px 0;
-    border: 1px solid #626262;
-    background-color: transparent;
-    border-radius: 6px;
-    resize: none;
-    width: 340px;
-    height: 120px;
-    font-size: 17px;
-    padding-left: 7px;
-    padding-right: 7px;
-}
-#enviarBtn{
-    font-size: 17px;
-    margin: 20px 0 0 0;
-    background-color: transparent;
-    border: 1px solid #626262;
-    border-radius: 5px;
-    color: #c2c2c2;
-    cursor: pointer;
-    width: 90px;
-    height: 50px;
-    transition: .2s;
-}
-#enviarBtn:hover{
-    background-color: #833424b6;
-}
-/* footer message */

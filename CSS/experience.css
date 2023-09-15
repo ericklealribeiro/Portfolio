@@ -6,7 +6,6 @@
 }
 #titulo_xp{
     position: relative;
-    top: 50px;
 }
 #txt_xp{
     position: relative;
@@ -46,7 +45,8 @@
     width: 100%;
     align-items: center;
     position: absolute;
-    top: 320px;
+    top: 54%;
+    transform: translateY(-50%);
 }
 #right_btn_xp{
     display: flex;
@@ -131,33 +131,33 @@
     font-size: 27px;
     text-align: center;
     justify-content: center;
-    margin: 12% 0 0 0;
+    margin: 35px 0 0 0;
 }
 #xp1{
     position: absolute;
     opacity: 1;
     transition: .8s;
-    right: 28.3%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
 }
 #xp2{
     position: absolute;
-    right: 0%;
-    transform: translateX(-50%);
+    right: 25%;
+    transform: translateX(50%);
     opacity: 0;
     transition: .8s;
 }
 #xp3{
     position: absolute;
-    right: 0%;
-    transform: translateX(-50%);
+    right: 25%;
+    transform: translateX(50%);
     opacity: 0;
     transition: .8s
 }
 #xp4{
     position: absolute;
-    right: 0%;
-    transform: translateX(-50%);
+    right: 25%;
+    transform: translateX(50%);
     opacity: 0;
     transition: .8s
 }
@@ -166,8 +166,8 @@
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    right: 50%;
-    transform: translateX(-50%);
+    right: 75%;
+    transform: translateX(50%);
     opacity: 0;
     transition: .8s
 }
@@ -180,3 +180,40 @@
     text-shadow: -3px -3px 0px rgb(131, 52, 36);
 }
 /* slides da linha do tempo */
+
+
+@media (max-width: 850px){
+    #xp{
+        height: 540px;
+    }
+    .box_xp{
+        width: 330px;
+        height: 240px;
+    }
+    .box_xp > h1{
+        font-size: 20px;
+    }
+    .box_xp > h2{
+        font-size: 17px;
+    }
+    .box_xp > p{
+        font-size: 23px;
+        margin: 13px 0 0 0;
+    }
+    #xp4 > p{
+        margin: 23px 0 0 0;
+    }
+    #slides_xp{
+        top: 70px;
+    }
+    #btns_xp{
+        top: 53%;
+        transform: translateY(-50%);
+    }
+    #left_btn_xp{
+        right: 200px;
+    }
+    #right_btn_xp{
+        left: 200px;
+    }
+}

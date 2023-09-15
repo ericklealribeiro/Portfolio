@@ -44,23 +44,13 @@
 }
 
 #box_shadow_sobreMim{
-    position: absolute;
+    position: relative;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    top: 200px;
+    top: 70px;
     left: 250px;
-    width: 32%;
-    height: 335px;
-}
-#box_shadow_buffer{
-    position: absolute;
-    background-color:rgb(131, 52, 36);
-    box-shadow: 21px 21px 0px rgb(0, 0, 0);
-    border-radius: 10px;
-    top: 191px;
-    right: 312px;
-    width: 29%;
-    height: 335px;
+    width: 560px;
+    height: 335px
 }
 #sobre_mim{
     z-index: 5;
@@ -69,10 +59,10 @@
     justify-content: center;
     position: relative;
     margin: 0;
-    width: 30%;
+    width: 525px;
     height: 300px;
-    left: 14%;
-    top: 12%;
+    left: 12px;
+    top: 12px;
     background-color: #585858;
     box-shadow: -24px -24px 0px  rgb(131, 52, 36);
     border-radius: 10px;
@@ -88,11 +78,82 @@
     color: #e3e3e3;
     text-shadow: -2px -1px 1px rgba(19, 19, 19, 0.3);
 }
+#box_shadow_buffer{
+    position: relative;
+    background-color:rgb(131, 52, 36);
+    box-shadow: 21px 21px 0px rgb(0, 0, 0);
+    border-radius: 10px;
+    top: 55px;
+    right: 250px;
+    width: 530px;
+    height: 335px;
+}
 #buffer{
-    position: absolute;
-    right: 15%;
-    top: 13%;
+    position: relative;
+    right: 15px;
+    top: -117px;
     height: 570px;
     width: 570px;
 }
+
+#shadowBoxes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+}
 /* sobre mim */
+
+
+@media (max-width: 1700px){
+    #box_shadow_sobreMim{
+        left: 120px;
+        width: 540px;
+        height: 323px;
+    }
+    #sobre_mim{
+        width: 502px;
+        height: 283px;
+    }
+    #sobre_mim > p{
+        font-size: 25px;
+    }
+    #box_shadow_buffer{
+        right: 180px;
+        width: 480px;
+        height: 320px;
+    }
+    #buffer{
+        top: -100px;
+        height: 520px;
+        width: 520px;
+    }
+}
+
+@media (max-width: 1350px){
+    #box_shadow_buffer{
+        display: none;
+    }
+    #box_shadow_sobreMim{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 800px){
+    #sobre_mim_box{
+        height: 480px;
+    }
+    #box_shadow_sobreMim{
+        top: 77px;
+        width: 460px;
+        height: 242px
+    }
+    #sobre_mim{
+        width: 430px;
+        height: 210px
+    }
+    #sobre_mim > p{
+        font-size: 20px;
+    }
+}

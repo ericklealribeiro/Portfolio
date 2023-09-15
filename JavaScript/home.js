@@ -26,7 +26,7 @@ function nextTxt(){
     document.getElementById('dev').style.opacity='0'
     document.getElementById('dev').style.top='-45px'
     document.getElementById('welcome').style.opacity='1'
-    document.getElementById('welcome').style.top='-205px'
+    document.getElementById('welcome').style.top='-180px'
     if(count2 > 1){
         count2 = 0;
         document.getElementById('dev').style.opacity='1'
