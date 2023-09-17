@@ -243,6 +243,12 @@
     }
     #contactW{
         margin: 0;
+    }  
+}
+
+@media (max-width: 1600px){
+    #footerBox{
+        left: 0px;
     }
     #hiddenTextW{
         display: none;
@@ -252,11 +258,5 @@
     }
     #hiddenTextG{
         display: none;
-    }
-}
-
-@media (max-width: 1600px){
-    #footerBox{
-        left: 0px;
     }
 }

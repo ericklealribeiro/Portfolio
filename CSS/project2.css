@@ -145,3 +145,38 @@
         top: 140px;
     }
 }
+
+@media (max-width: 600px){
+    #projectBox2{
+        height: 265px;
+        width: 280px;
+        top: 185px;
+    }
+    #project2{
+        width: 225px;
+        height: 130px;
+        left: 4px;
+    }
+    #tarja2{
+        top: 20px;
+        height: 45px;
+        width: 355px;
+    }
+    #tarja2 > h1{
+        font-size: 12px;
+    }
+    #cel2{
+        left: 110px;
+        top: -22px;
+        width: 42px;
+        height: 66px;
+    }
+    #linha_projects2{
+        bottom: 75px;
+        width: 150px;
+        left: 24%;
+    }
+    #textProjects2 > h1{
+        font-size: 19px;
+    }
+}

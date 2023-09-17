@@ -1,11 +1,10 @@
 let count3 = 0;
 setInterval(function(){
     btnRight();
-}, 4500);
+}, 5000);
 
 function btnRight(){
     let nextDivId = 'xp'+ (count3 + 1);
-    console.log(nextDivId);
     if (count3 == 5){
         count3 = 1;
         document.getElementById('xp3').style.right='25%'

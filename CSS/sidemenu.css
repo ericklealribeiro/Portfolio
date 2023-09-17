@@ -36,9 +36,9 @@
 #header{
     z-index: 10;
     position: fixed;
-    right: 0;
+    right: -190px;
     margin: 0;
-    width: 60px;
+    width: 250px;
     height: 100%;
     transition: .4s;
 }
@@ -153,3 +153,11 @@
     color: #833424;
 }
 /* menu lateral */
+
+
+
+@media (max-width: 600px){
+    #header element.style{
+        width: 400px;
+    }
+}

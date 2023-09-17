@@ -143,3 +143,37 @@
         left: 0;
     }
 }
+
+@media (max-width: 600px){
+    #projectBox1{
+        height: 265px;
+        width: 280px;
+        top: 100px;
+    }
+    #project1{
+        width: 225px;
+        height: 130px;
+        left: 4px;
+    }
+    #tarja{
+        top: 20px;
+        height: 45px;
+        width: 355px;
+    }
+    #tarja> h1{
+        font-size: 12px;
+    }
+    #cel1{
+        left: 110px;
+        top: -22px;
+        width: 42px;
+        height: 66px;
+    }
+    #linha_projects1{
+        bottom: 75px;
+        width: 150px;
+    }
+    #textProjects1 > h1{
+        font-size: 19px;
+    }
+}

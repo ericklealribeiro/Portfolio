@@ -1,14 +1,14 @@
 //Botões de Abrir e Fechar o Menu Lateral;
 function abrirMenu(){
-    document.getElementById('header').style.width='300px'
+    document.getElementById('header').style.right='0px'
     document.getElementById('btn_fechar').style.display='block'
     document.getElementById('btn_abrir').style.display='none'
     document.getElementById('home').style.right='360px'
-    document.getElementById('btnTop').style.right='175px'
+    document.getElementById('btnTop').style.right='130px'
     document.getElementById('overlayFechar').style.display='block'
 }
 function fecharMenu(){
-    document.getElementById('header').style.width='60px'
+    document.getElementById('header').style.right='-190px'
     document.getElementById('btn_fechar').style.display='none'
     document.getElementById('btn_abrir').style.display='block'
     document.getElementById('home').style.right='150px'

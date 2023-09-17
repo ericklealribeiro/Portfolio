@@ -48,22 +48,22 @@
 }
 
 /* icons dos projetos */
-.bi.bi-body-text{
+    .bi.bi-body-text{
     color: #9d4432;
 }
-.bi.bi-phone{
+    .bi.bi-phone{
     color: #9d4432;
     position: relative;
     top: -3px;
     font-size: 80px;
 }
-#textIcon1{
+    #textIcon1{
     position: absolute;
     font-size: 205px;
     left: 15px;
     top: -10px;
 }
-#textIcon2{
+    #textIcon2{
     transform: rotate(180deg);
     position: absolute;
     font-size: 205px;
@@ -104,5 +104,31 @@
     }
     #projectCards2{
         display: none;
+    }
+}
+
+@media (max-width: 600px){
+    #project{
+        height: 100vh;
+    }
+    #textIcon1{
+        font-size: 110px;
+        top: 0px;
+    }
+    #textIcon2{
+        font-size: 110px;
+        top: -13px;
+    }
+    .bi.bi-phone{
+        font-size: 55px;
+    }
+    #titulo_project{
+        top: 10px;
+    }
+    #txt_project > h2{
+        font-size: 14px;
+    }
+    #txt_project > h1{
+        font-size: 20px;
     }
 }
