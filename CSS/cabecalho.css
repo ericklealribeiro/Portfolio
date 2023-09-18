@@ -8,13 +8,14 @@
     top: 0;
     padding: 10px 0 0 0;
 }
-#cabeça > h1{
+#homeH1{
     font-family: 'Lato', sans-serif;
     position: absolute;
     color: rgb(255, 255, 255);
-    top: 40%;
-    left: 10%;
+    top: 50%;
+    left: 7%;
     margin: 0;
+    transition: .4s;
 }
 #home{
     display: flex;
@@ -22,7 +23,8 @@
     transition: .4s;
     padding: 25px 0 0 0;
     gap: 3.2rem;
-    right: 150px;
+    right: 85px;
+    transition: .4s;
 }
 #home > a{
     display: flex;

@@ -1,19 +1,17 @@
 //Botões de Abrir e Fechar o Menu Lateral;
 function abrirMenu(){
-    document.getElementById('header').style.right='0px'
+    document.getElementById('header').style.left='0px'
     document.getElementById('btn_fechar').style.display='block'
     document.getElementById('btn_abrir').style.display='none'
-    document.getElementById('home').style.right='360px'
-    document.getElementById('btnTop').style.right='130px'
     document.getElementById('overlayFechar').style.display='block'
+    document.getElementById('homeH1').style.left='18%'
 }
 function fecharMenu(){
-    document.getElementById('header').style.right='-190px'
+    document.getElementById('header').style.left='-210px'
     document.getElementById('btn_fechar').style.display='none'
     document.getElementById('btn_abrir').style.display='block'
-    document.getElementById('home').style.right='150px'
-    document.getElementById('btnTop').style.right='14px'
     document.getElementById('overlayFechar').style.display='none'
+    document.getElementById('homeH1').style.left='7%'
 }
 
 
