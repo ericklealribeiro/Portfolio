@@ -46,7 +46,7 @@
     position: absolute;
     top: 0;
     left: 60px;
-    width: 240px;
+    width: 210px;
     height: 100%;
     text-align: left;
     background-color: #202020;
@@ -63,7 +63,7 @@
 .linha_menu{
     border-top: solid 1px rgba(255, 255, 255,.5);
     margin: 20px auto;
-    width: 210px;
+    width: 170px;
     height: 1px;
 }
 #menu > a{
