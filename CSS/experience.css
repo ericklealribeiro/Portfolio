@@ -136,40 +136,40 @@
 #xp1{
     position: absolute;
     opacity: 1;
-    transition: .8s;
+    transition: .5s;
     right: 50%;
     transform: translateX(50%);
 }
 #xp2{
     position: absolute;
-    right: 25%;
+    right: 45%;
     transform: translateX(50%);
     opacity: 0;
-    transition: .8s;
+    transition: .5s;
 }
 #xp3{
     position: absolute;
-    right: 25%;
+    right: 45%;
     transform: translateX(50%);
     opacity: 0;
-    transition: .8s
+    transition: .5s
 }
 #xp4{
     position: absolute;
-    right: 25%;
+    right: 45%;
     transform: translateX(50%);
     opacity: 0;
-    transition: .8s
+    transition: .5s
 }
 #xp5{
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    right: 75%;
+    right: 55%;
     transform: translateX(50%);
     opacity: 0;
-    transition: .8s
+    transition: .5s
 }
 #xp5 > h1{
     color: white;
