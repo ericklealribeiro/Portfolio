@@ -4,21 +4,19 @@ function abrirMenu(){
     document.getElementById('btn_fechar').style.display='block'
     document.getElementById('btn_abrir').style.display='none'
     document.getElementById('overlayFechar').style.display='block'
-    document.getElementById('homeH1').style.left='18%'
+    document.getElementById('homeH1').style.left='300px'
 }
 function fecharMenu(){
     document.getElementById('header').style.left='-210px'
     document.getElementById('btn_fechar').style.display='none'
     document.getElementById('btn_abrir').style.display='block'
     document.getElementById('overlayFechar').style.display='none'
-    document.getElementById('homeH1').style.left='7%'
+    document.getElementById('homeH1').style.left='150px'
 }
 
 
 //Botão de Subir para o Topo;
-function btnTopo(){
-    window.scrollTo(0,0)
-}
+
 function ocultar(){
     if (window.scrollY > 70){
         document.getElementById('btnTop').style.opacity='1'
