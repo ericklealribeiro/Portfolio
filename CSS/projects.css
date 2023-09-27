@@ -1,5 +1,5 @@
 #project{
-    height: 110vh;
+    height: 90vh;
     width: 100%;
     background-color: #3d3d3d;
 }
@@ -36,99 +36,65 @@
 #projectCards1{
     position: absolute;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-#projectCards2{
-    position: relative;
-    top: 540px;
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
 }
 
-/* icons dos projetos */
-    .bi.bi-body-text{
-    color: #9d4432;
-}
-    .bi.bi-phone{
-    color: #9d4432;
+.htmlLogo{
+    color: #833424;
     position: relative;
-    top: -3px;
-    font-size: 80px;
+    width: 25px;
+    height: 25px;
 }
-    #textIcon1{
-    position: absolute;
-    font-size: 205px;
-    left: 15px;
-    top: -10px;
+.cssLogo{
+    color: #833424;
+    position: relative;
+    width: 31px;
+    height: 31px;
 }
-    #textIcon2{
-    transform: rotate(180deg);
-    position: absolute;
-    font-size: 205px;
-    right: 15px;
-    top: -35px;
+.jsLogo{
+    color: #833424;
+    position: relative;
+    width: 27px;
+    height: 27px;
 }
 /* icons dos projetos */
-
-
-@media (max-width: 1900px){
-    #project{
-        height: 1100px;
-    }
-}
-
-@media (max-width: 1600px){
-    #textIcon1{
-        font-size: 140px;
-        top: -4px;
-    }
-    #textIcon2{
-        font-size: 140px;
-        top: -20px;
-    }
-    .bi.bi-phone{
-        font-size: 66px;
-    }
-}
-
-@media (max-width: 1100px){
-    #project{
-        height: 110vh;
-    }
-    #projectCards1{
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    #projectCards2{
-        display: none;
-    }
-}
-
-@media (max-width: 600px){
+@media (max-height: 800px){
     #project{
         height: 100vh;
     }
-    #textIcon1{
-        font-size: 110px;
-        top: 0px;
+}
+@media (max-width: 800px){
+    #project{
+        height: 80vh;
     }
-    #textIcon2{
-        font-size: 110px;
-        top: -13px;
+    .htmlLogo{
+        width: 19px;
+        height: 19px;
     }
-    .bi.bi-phone{
-        font-size: 55px;
+    .cssLogo{
+        width: 25px;
+        height: 25px;
     }
-    #titulo_project{
-        top: 10px;
+    .jsLogo{
+        width: 21px;
+        height: 21px;
     }
-    #txt_project > h2{
-        font-size: 14px;
+}
+@media (max-width: 500px){
+    #project{
+        height: 60vh;
     }
-    #txt_project > h1{
-        font-size: 20px;
+    .htmlLogo{
+        width: 15px;
+        height: 15px;
+    }
+    .cssLogo{
+        width: 20px;
+        height: 20px;
+    }
+    .jsLogo{
+        width: 16px;
+        height: 16px;
     }
 }
