@@ -64,6 +64,20 @@
         height: 75vh;
     }
 }
+@media (max-height: 820px){
+    .htmlLogo{
+        width: 19px;
+        height: 19px;
+    }
+    .cssLogo{
+        width: 24px;
+        height: 24px;
+    }
+    .jsLogo{
+        width: 21px;
+        height: 21px;
+    }
+}
 @media (max-width: 800px){
     #project{
         height: 75vh;
