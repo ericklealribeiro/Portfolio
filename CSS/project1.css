@@ -92,7 +92,7 @@
     font-size: 14px;
 }
 
-@media (max-height: 800px){
+@media (max-height: 890px){
     #projectBox1{
         top: 5vh;
         height: 440px;

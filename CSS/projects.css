@@ -59,9 +59,9 @@
     height: 27px;
 }
 /* icons dos projetos */
-@media (max-height: 800px){
+@media (max-height: 890px){
     #project{
-        height: 100vh;
+        height: 75vh;
     }
 }
 @media (max-width: 800px){
