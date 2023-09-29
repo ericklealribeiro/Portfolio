@@ -139,6 +139,66 @@
         font-size: 10px;
     }
 }
+@media (max-height: 820px){
+    #projectBox1{
+        height: 360px;
+        width: 280px;
+        top: 40px;
+    }
+    #titulo_project{
+        top: 7px;
+    }
+    #txt_project > h1{
+        font-size: 20px;
+    }
+    #txt_project > h2{
+        font-size: 13px;
+    }
+    #imgProject1{
+        height: 121px;
+        width: 230px;
+        box-shadow: -6px -6px 0px rgb(0, 0, 0);
+    }
+    #celProject1{
+        height: 62px;
+        width: 38px;
+        left: 110px;
+        top: -20px;
+        border-radius: 5px;
+        box-shadow: -5px -5px 0px rgb(0, 0, 0);
+    }
+    #tituloProject1{
+        top: 170px;
+    }
+    #tituloProject1 > h1{
+        font-size: 17px;
+    }
+    #linha_projects1{
+        top: 200px;
+        width: 140px;
+    }
+    #textProjects1{
+        top: 210px;
+        width: 240px;
+    }
+    #textProjects1 > p{
+        font-size: 13px;
+    }
+    #tecnologiasProject1{
+        bottom: 57px;
+        width: 80px;
+    }
+    #repositorioProject1{
+        bottom: 5px;
+    }
+    #repositorioProject1 > a{
+        font-size: 24px;
+    }
+    #repositorioProject1 > p{
+        font-size: 10px;
+    }
+}
+
 @media (max-width: 800px){
     #projectBox1{
         height: 440px;
@@ -185,12 +245,11 @@
         font-size: 10px;
     }
 }
-
 @media (max-width: 500px){
     #projectBox1{
         height: 360px;
         width: 280px;
-        top: 40px;
+        top: 70px;
     }
     #titulo_project{
         top: 7px;
