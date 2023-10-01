@@ -1,5 +1,5 @@
 #project{
-    height: 90vh;
+    height: 850px;
     width: 100%;
     background-color: #3d3d3d;
 }
@@ -61,7 +61,7 @@
 /* icons dos projetos */
 @media (max-height: 890px){
     #project{
-        height: 75vh;
+        height: 700px;
     }
 }
 @media (max-height: 820px){
@@ -78,9 +78,10 @@
         height: 21px;
     }
 }
+
 @media (max-width: 800px){
     #project{
-        height: 75vh;
+        height: 700px;
     }
     .htmlLogo{
         width: 19px;
@@ -97,7 +98,7 @@
 }
 @media (max-width: 500px){
     #project{
-        height: 65vh;
+        height: 550px;
     }
     .htmlLogo{
         width: 15px;
